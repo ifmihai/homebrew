@@ -2,9 +2,14 @@ require 'formula'
 
 class Qscintilla2 < Formula
   homepage 'http://www.riverbankcomputing.co.uk/software/qscintilla/intro'
-  url 'http://downloads.sf.net/project/pyqt/QScintilla2/QScintilla-2.7.1/QScintilla-gpl-2.7.1.tar.gz'
-  sha1 '646b5e6e6658c70d9bca034d670a3b56690662f2'
-
+  #v2.7.1
+  #url 'http://downloads.sf.net/project/pyqt/QScintilla2/QScintilla-2.7.1/QScintilla-gpl-2.7.1.tar.gz'
+  #sha1 '646b5e6e6658c70d9bca034d670a3b56690662f2'
+  
+  #v2.7.2
+  url 'http://sourceforge.net/projects/pyqt/files/QScintilla2/QScintilla-2.7.2/QScintilla-gpl-2.7.2.tar.gz'
+  sha1 '2a11fb6be2c3005bc6502f929a0a339d4303af9b'
+  
   depends_on 'pyqt'
   depends_on 'sip'
   depends_on :python
